@@ -1,0 +1,50 @@
+body {
+    background-color: darkgreen;
+}
+
+img {
+    height: 200px;
+    margin: 10px;
+}
+
+button {
+    margin:10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-size: 1.3em;
+    min-width: 75px;
+    text-align: center;
+ 
+}
+
+#btns {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#dealer-cards {
+    display: flex;
+    justify-content: center;
+
+}
+
+#player-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.play-again-btn {
+    display: none;
+    
+}
+
+.hit-btn {
+    display: none;
+    
+}
+
+.stand-btn {
+    display: none;
+    
+}

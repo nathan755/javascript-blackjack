@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h2 class="dealer-score"></h2>
+    <div id="dealer-cards">
+        <h2 class="dealer-score"></h2>
+
+    </div>
+    <h2 class="player-score"></h2>
+    <div id="player-cards">
+        
+
+    </div>
+    <div id="btns">
+        <button class="deal-btn" onclick="deal(player,dealer)">deal</button>
+        <button class="hit-btn" onclick="deck.hit(player)">hit</button>
+        <button class="stand-btn" onclick="finishDealer(dealer)">stand</button>
+        <button class="play-again-btn" onclick="playAgain(player,dealer)">play again</button>
+
+    </div>
+</body>
+
+</html>
